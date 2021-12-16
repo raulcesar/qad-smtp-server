@@ -1,0 +1,14 @@
+{
+  "name": "fakesmtp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "smtp-server": "^3.9.0",
+    "yargs": "^17.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1"
+  }
+}

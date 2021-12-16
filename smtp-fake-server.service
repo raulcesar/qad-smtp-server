@@ -1,0 +1,15 @@
+[Unit]
+Description=KD fake development SMTP server
+Documentation=https://wiki.infocedi.camara.leg.br/wiki
+After=network.target
+
+[Service]
+Type=simple
+Environment=NODE_ENV=desenvolvimento
+User=kdfakesmtp
+WorkingDirectory=/home/kdfakesmtp/kd-backend
+ExecStart=/usr/bin/node /home/kdfakesmtp/kd-backend/apoiodev/smtp-server.js
+
+[Install]
+WantedBy=multi-user.target
+
