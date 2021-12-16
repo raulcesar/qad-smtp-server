@@ -1,4 +1,4 @@
-const fsUtils = require('./filesystem-utils');
+const fsUtils = require('./src/filesystem-utils');
 const path = require('path');
 
 const outDir = path.join(__dirname, 'scratch/incomingmail');
