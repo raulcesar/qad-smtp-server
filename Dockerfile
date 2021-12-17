@@ -12,3 +12,5 @@ ADD package.json /usr/src/app
 RUN yarn
 
 ADD src /usr/src/app/
+
+CMD ["node", "smtp-server"]
